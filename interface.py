@@ -40,7 +40,7 @@ class Interface:
         taille_entry = tk.Entry(self.root, textvariable=self.size_var, width=5, font=("Helvetica", 14))
         taille_entry.pack(pady=5)
         
-        taille_button = self.create_button(self.root, "Appliquer taille", self.taille_grid)
+        taille_button = self.create_button(self.root, "Appliquer", self.taille_grid)
         taille_button.pack(pady=10)
 
     def taille_grid(self):
