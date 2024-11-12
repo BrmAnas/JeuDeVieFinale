@@ -56,7 +56,7 @@ class Interface:
         self.canvas = tk.Canvas(self.root, width=500, height=500, bg="#1e2b34", highlightthickness=0)
         self.canvas.grid(row=0, column=1, padx=20, pady=20)
         self.canvas.bind("<ButtonPress-2>", self.start_drag)
-        self.canvas.bind("<B1-Motion>", self.drag)
+        self.canvas.bind("<B2-Motion>", self.drag)
         self.canvas.bind("<Button-1>", self.changement_cellule)
 
         
